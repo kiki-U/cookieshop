@@ -129,4 +129,9 @@ public class GoodsDao {
         String sql = "delete from goods where id = ?";
         r.update(sql,id);
     }
+    public void ddd(int id) throws SQLException {
+        QueryRunner r = new QueryRunner(DataSourceUtils.getDataSource());
+        String sql = "delete from goods where id = ?";
+        r.update(sql,id);
+    }
 }

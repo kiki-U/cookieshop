@@ -31,16 +31,16 @@ public class OrderDao {
     public List<Order> selectAll(int userid) throws SQLException {
         QueryRunner r = new QueryRunner(DataSourceUtils.getDataSource());
         String sql = "select * from `order` where user_id=? order by datetime desc";
-        return r.query(sql, new BeanListHandler<Order>(Order.class),userid);
+        return r.query(sql, new BeanListHandler<>(Order.class),userid);
     }
-    public List<OrderItem> selectAllItem(int orderid) throws SQLException{
+    public List<OrderItem> selectAllItem(int orderId) throws SQLException{
         QueryRunner r = new QueryRunner(DataSourceUtils.getDataSource());
         String sql = "select i.id,i.price,i.amount,g.name from orderitem i,goods g where order_id=? and i.goods_id=g.id";
-        return r.query(sql, new BeanListHandler<OrderItem>(OrderItem.class),orderid);
+        return r.query(sql, new BeanListHandler<>(OrderItem.class),orderId);
     }
     public int getOrderCount(int status) throws SQLException {
         QueryRunner r = new QueryRunner(DataSourceUtils.getDataSource());
-        String sql = "";
+        String sql;
         if(status==0) {
             sql = "select count(*) from `order`";
             return r.query(sql, new ScalarHandler<Long>()).intValue();
@@ -53,10 +53,10 @@ public class OrderDao {
         QueryRunner r = new QueryRunner(DataSourceUtils.getDataSource());
         if(status==0) {
             String sql = "select o.id,o.total,o.amount,o.status,o.paytype,o.name,o.phone,o.address,o.datetime,u.username from `order` o,user u where o.user_id=u.id order by o.datetime desc limit ?,?";
-            return r.query(sql, new BeanListHandler<Order>(Order.class), (pageNumber-1)*pageSize,pageSize );
+            return r.query(sql, new BeanListHandler<>(Order.class), (pageNumber-1)*pageSize,pageSize );
         }else {
             String sql = "select o.id,o.total,o.amount,o.status,o.paytype,o.name,o.phone,o.address,o.datetime,u.username from `order` o,user u where o.user_id=u.id and o.status=? order by o.datetime desc limit ?,?";
-            return r.query(sql, new BeanListHandler<Order>(Order.class),status, (pageNumber-1)*pageSize,pageSize );
+            return r.query(sql, new BeanListHandler<>(Order.class),status, (pageNumber-1)*pageSize,pageSize );
         }
     }
     public void updateStatus(int id,int status) throws SQLException {

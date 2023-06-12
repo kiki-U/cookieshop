@@ -4,8 +4,6 @@ import dao.GoodsDao;
 import model.Goods;
 import model.Page;
 
-
-import javax.management.monitor.StringMonitorMBean;
 import java.sql.SQLException;
 import java.util.List;
 import java.util.Map;
@@ -21,16 +19,7 @@ public class GoodsService {
         }
         return list;
     }
-//    public Map<String,Object> getScrollGood()
-//    {
-//        Map<String,Object> scroolGood=null;
-//        try {
-//            scroolGood=gDao.getScrollGood();
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//        }
-//        return scroolGood;
-//    }
+
     public List<Map<String,Object>> getScrollGood() {
         List<Map<String,Object>> list=null;
         try {

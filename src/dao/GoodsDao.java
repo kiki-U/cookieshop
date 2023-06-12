@@ -19,8 +19,6 @@ public class GoodsDao {
 
     public List<Map<String,Object>> getScrollGood()throws SQLException{
         QueryRunner r = new QueryRunner(DataSourceUtils.getDataSource());
-//        String sql="select g.id,g.name,g.cover,g.price  from recommend r,goods g where type=1 and r.goods_id=g.id";
-//        return r.query(sql, new MapHandler());
         String sql="select g.id,g.name,g.cover,g.price  from recommend r,goods g where r.goods_id=g.id";
         return r.query(sql, new MapListHandler());
     }

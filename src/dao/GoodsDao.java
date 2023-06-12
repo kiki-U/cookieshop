@@ -29,17 +29,17 @@ public class GoodsDao {
         {
             String sql="select * from goods limit ? , ?";
             QueryRunner r=new QueryRunner(DataSourceUtils.getDataSource());
-            return  r.query(sql,new BeanListHandler<Goods>(Goods.class),(pageNumber-1)*pageSize,pageSize);
+            return  r.query(sql, new BeanListHandler<>(Goods.class),(pageNumber-1)*pageSize,pageSize);
         }
         else
         {
             String sql="select * from goods where type_id=? limit ? , ?";
             QueryRunner r=new QueryRunner(DataSourceUtils.getDataSource());
-            return  r.query(sql,new BeanListHandler<Goods>(Goods.class),typeID,(pageNumber-1)*pageSize,pageSize);
+            return  r.query(sql,new BeanListHandler<>(Goods.class),typeID,(pageNumber-1)*pageSize,pageSize);
         }
     }
     public int getCountOfGoodsByTypeID(int typeID) throws SQLException {
-        String sql="";
+        String sql;
         QueryRunner r=new QueryRunner(DataSourceUtils.getDataSource());
         if(typeID==0)
         {
@@ -57,12 +57,12 @@ public class GoodsDao {
         if(type==0) {
             //当不添加推荐类型限制的时候
             String sql = " select g.id,g.name,g.cover,g.image1,g.image2,g.intro,g.price,g.stock,t.name typename from goods g,type t where g.type_id=t.id order by g.id limit ?,?";
-            return r.query(sql, new BeanListHandler<Goods>(Goods.class),(pageNumber-1)*pageSize,pageSize);
+            return r.query(sql, new BeanListHandler<>(Goods.class),(pageNumber-1)*pageSize,pageSize);
 
         }
 
         String sql = " select g.id,g.name,g.cover,g.image1,g.image2,g.intro,g.price,g.stock,t.name typename from goods g,recommend r,type t where g.id=r.goods_id and g.type_id=t.id and r.type=? order by g.id limit ?,?";
-        return r.query(sql, new BeanListHandler<Goods>(Goods.class),type,(pageNumber-1)*pageSize,pageSize);
+        return r.query(sql, new BeanListHandler<>(Goods.class),type,(pageNumber-1)*pageSize,pageSize);
     }
     public int getRecommendCountOfGoodsByTypeID(int type) throws SQLException {
         if(type==0)return getCountOfGoodsByTypeID(0);
@@ -73,7 +73,7 @@ public class GoodsDao {
     public Goods getGoodsById(int id) throws SQLException {
         QueryRunner r = new QueryRunner(DataSourceUtils.getDataSource());
         String sql = "select g.id,g.name,g.cover,g.image1,g.image2,g.price,g.intro,g.stock,t.id typeid,t.name typename from goods g,type t where g.id = ? and g.type_id=t.id";
-        return r.query(sql, new BeanHandler<Goods>(Goods.class),id);
+        return r.query(sql, new BeanHandler<>(Goods.class),id);
     }
     public int getSearchCount(String keyword) throws SQLException {
         QueryRunner r = new QueryRunner(DataSourceUtils.getDataSource());
@@ -83,7 +83,7 @@ public class GoodsDao {
     public List<Goods> selectSearchGoods(String keyword, int pageNumber, int pageSize) throws SQLException{
         QueryRunner r = new QueryRunner(DataSourceUtils.getDataSource());
         String sql = "select * from goods where name like ? limit ?,?";
-        return r.query(sql, new BeanListHandler<Goods>(Goods.class),"%"+keyword+"%",(pageNumber-1)*pageSize,pageSize);
+        return r.query(sql, new BeanListHandler<>(Goods.class),"%"+keyword+"%",(pageNumber-1)*pageSize,pageSize);
     }
     public boolean isScroll(Goods g) throws SQLException {
         return isRecommend(g, 1);
@@ -97,12 +97,8 @@ public class GoodsDao {
     private boolean isRecommend(Goods g,int type) throws SQLException {
         QueryRunner r = new QueryRunner(DataSourceUtils.getDataSource());
         String sql = "select * from recommend where type=? and goods_id=?";
-        Recommend recommend = r.query(sql, new BeanHandler<Recommend>(Recommend.class),type,g.getId());
-        if(recommend==null) {
-            return false;
-        }else {
-            return true;
-        }
+        Recommend recommend = r.query(sql, new BeanHandler<>(Recommend.class),type,g.getId());
+        return recommend != null;
     }
     public void addRecommend(int id,int type) throws SQLException {
         QueryRunner r = new QueryRunner(DataSourceUtils.getDataSource());
@@ -125,11 +121,6 @@ public class GoodsDao {
         r.update(sql,g.getName(),g.getCover(),g.getImage1(),g.getImage2(),g.getPrice(),g.getIntro(),g.getStock(),g.getType().getId(),g.getId());
     }
     public void delete(int id) throws SQLException {
-        QueryRunner r = new QueryRunner(DataSourceUtils.getDataSource());
-        String sql = "delete from goods where id = ?";
-        r.update(sql,id);
-    }
-    public void ddd(int id) throws SQLException {
         QueryRunner r = new QueryRunner(DataSourceUtils.getDataSource());
         String sql = "delete from goods where id = ?";
         r.update(sql,id);

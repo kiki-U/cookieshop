@@ -9,11 +9,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3847e6c7-9242-49bb-ad13-6faff34ce164" name="Default" comment="CZK MADE">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="3847e6c7-9242-49bb-ad13-6faff34ce164" name="Default" comment="CZK">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CookieShop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CookieShop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cookieshop.sql" beforeDir="false" afterPath="$PROJECT_DIR$/cookieshop.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/WEB-INF/classes/dao/GoodsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/WEB-INF/classes/dao/GoodsDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/WEB-INF/classes/dao/OrderDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/WEB-INF/classes/dao/OrderDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/WEB-INF/classes/service/GoodsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/WEB-INF/classes/service/GoodsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/WEB-INF/classes/servlet/IndexServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/WEB-INF/classes/servlet/IndexServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/goods_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/goods_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/dao/GoodsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/dao/GoodsDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/dao/OrderDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/dao/OrderDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/service/GoodsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/service/GoodsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/servlet/IndexServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/servlet/IndexServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/slid.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/slid2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +42,15 @@
         <option value="Jsp File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -44,25 +68,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "项目",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.30310664",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.30310664&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\书稿\3、《Java Web程序设计任务教程（第2版）》\3、《Java Web程序设计任务教程（第2版）》\3.资源\2.项目源码\CakesShop-master\CakesShop-master\CookieShop\web\WEB-INF\lib" />
@@ -282,7 +307,11 @@
       <workItem from="1628125461306" duration="10589000" />
       <workItem from="1628140633832" duration="3919000" />
       <workItem from="1628144576083" duration="5156000" />
-      <workItem from="1686586580519" duration="466000" />
+      <workItem from="1686586580519" duration="1310000" />
+      <workItem from="1686591737273" duration="75000" />
+      <workItem from="1686646814467" duration="711000" />
+      <workItem from="1686652057447" duration="3339000" />
+      <workItem from="1686742989080" duration="2820000" />
     </task>
     <task id="LOCAL-00001" summary="CZK MADE">
       <created>1686586970645</created>
@@ -291,7 +320,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686586970645</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="CZK">
+      <created>1686587132012</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686587132012</updated>
+    </task>
+    <task id="LOCAL-00003" summary="CZK">
+      <created>1686587234075</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686587234075</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,6 +353,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="CZK MADE" />
-    <option name="LAST_COMMIT_MESSAGE" value="CZK MADE" />
+    <MESSAGE value="CZK" />
+    <option name="LAST_COMMIT_MESSAGE" value="CZK" />
   </component>
 </project>

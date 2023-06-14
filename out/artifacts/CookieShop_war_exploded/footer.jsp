@@ -10,7 +10,7 @@
 <div class="footer">
     <div class="container">
         <div class="text-center">
-            <p>vili www.vilicode.com © All rights Reseverd</p>
+           
         </div>
     </div>
 </div>

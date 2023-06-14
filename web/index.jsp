@@ -92,7 +92,6 @@
 
 <!--//banner-->
 
-<div class="subscribe2"></div>
 
 <!--gallery-->
 <div class="gallery">

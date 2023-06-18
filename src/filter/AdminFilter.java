@@ -17,7 +17,7 @@ public class AdminFilter implements Filter {
         HttpServletRequest request = (HttpServletRequest)req;
         HttpServletResponse requestp = (HttpServletResponse)resp;
         User u = (User) request.getSession().getAttribute("user");
-        if(u==null || u.isIsadmin()==false) {
+        if(u==null || !u.isIsadmin()) {
             requestp.sendRedirect("../index.jsp");
         }else {
             // pass the request along the filter chain
@@ -25,7 +25,7 @@ public class AdminFilter implements Filter {
         }
     }
 
-    public void init(FilterConfig config) throws ServletException {
+    public void init(FilterConfig config) {
 
     }
 

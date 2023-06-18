@@ -22,7 +22,7 @@ public class GoodsDao {
         String sql="select g.id,g.name,g.cover,g.price  from recommend r,goods g where r.goods_id=g.id";
         return r.query(sql, new MapListHandler());
     }
-    public List<Goods> selectGoodsByTypeID(int typeID,int pageNumber,int pageSize) throws SQLException {
+    public List<Goods> selectGoodsByTypeID(int typeID,int   pageNumber,int pageSize) throws SQLException {
         if(typeID==0)
         {
             String sql="select * from goods limit ? , ?";

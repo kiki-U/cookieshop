@@ -15,8 +15,8 @@ public class Order {
     private String address;
     private Date datetime;
     private User user;
-    private Map<Integer,OrderItem> itemMap = new HashMap<Integer,OrderItem>();
-    private List<OrderItem> itemList = new ArrayList<OrderItem>();
+    private Map<Integer,OrderItem> itemMap = new HashMap<>();
+    private List<OrderItem> itemList = new ArrayList<>();
 
     public void setUsername(String username) {
         user = new User();

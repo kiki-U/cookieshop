@@ -46,7 +46,8 @@ body a:hover {
 
 /*--header--*/
 .header {
-    background-color: #5D4B33;
+    font-weight:bold;
+    background-color: #21a4f6;
     padding: 0;
     position: relative;
 }
@@ -82,17 +83,16 @@ nav.navbar.navbar-default {
     color: #fff;
     font-size: 1.1em;
     padding: 23px 18px;
-    border-left: 1px solid #79654A;
     display: block;
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    background: #F07818;
+    background: #3a8cd6;
     color: #fff;
 }
 
 .nav > li > a.active {
-    background: #F07818;
+    color: #fbc436;
 }
 
 .row {
@@ -171,7 +171,6 @@ b.caret {
     float: left;
     width: 6%;
     text-align: center;
-    border-left: 1px solid #79654A;
 }
 
 .header-right a {
@@ -2663,6 +2662,7 @@ span.glyphicon.glyphicon-map-marker {
         top: 22%;
         right: 11%;
         width: 31%;
+
     }
 
     .banner {

@@ -9,26 +9,86 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3847e6c7-9242-49bb-ad13-6faff34ce164" name="Default" comment="CZK">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="3847e6c7-9242-49bb-ad13-6faff34ce164" name="Default" comment="javaweb">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CookieShop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CookieShop.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cookieshop.sql" beforeDir="false" afterPath="$PROJECT_DIR$/cookieshop.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/WEB-INF/classes/dao/GoodsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/WEB-INF/classes/dao/GoodsDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/WEB-INF/classes/dao/OrderDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/WEB-INF/classes/dao/OrderDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/WEB-INF/classes/service/GoodsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/WEB-INF/classes/service/GoodsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/WEB-INF/classes/servlet/IndexServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/WEB-INF/classes/servlet/IndexServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/goods_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/goods_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/dao/GoodsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/dao/GoodsDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/dao/OrderDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/dao/OrderDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/service/GoodsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/service/GoodsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/servlet/IndexServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/servlet/IndexServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/slid.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/slid2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/admin/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/admin/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/images/slid.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/images/slid2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/picture/1-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/picture/1-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/picture/1-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/picture/10-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/picture/10-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/picture/10-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/picture/11-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/picture/12-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/picture/12-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/picture/13-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/picture/14-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/picture/2-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/picture/2-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/picture/2-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/picture/3-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/picture/3-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/picture/3-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/picture/4-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/picture/4-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/picture/4-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/picture/5-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/picture/5-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/picture/5-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/picture/6-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/picture/6-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/picture/6-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/picture/7-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/picture/7-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/picture/7-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/picture/8-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/picture/8-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/picture/8-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/picture/9-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/picture/9-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/picture/9-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/picture/1-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/picture/1-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/picture/1-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/picture/10-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/picture/10-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/picture/10-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/picture/11-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/picture/12-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/picture/12-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/picture/13-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/picture/14-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/picture/2-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/picture/2-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/picture/2-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/picture/3-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/picture/3-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/picture/3-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/picture/4-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/picture/4-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/picture/4-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/picture/5-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/picture/5-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/picture/5-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/picture/6-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/picture/6-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/picture/6-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/picture/7-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/picture/7-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/picture/7-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/picture/8-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/picture/8-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/picture/8-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/picture/9-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/picture/9-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/picture/9-3.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -311,7 +371,9 @@
       <workItem from="1686591737273" duration="75000" />
       <workItem from="1686646814467" duration="711000" />
       <workItem from="1686652057447" duration="3339000" />
-      <workItem from="1686742989080" duration="2820000" />
+      <workItem from="1686742989080" duration="3452000" />
+      <workItem from="1686802368654" duration="1773000" />
+      <workItem from="1687004634652" duration="1966000" />
     </task>
     <task id="LOCAL-00001" summary="CZK MADE">
       <created>1686586970645</created>
@@ -334,7 +396,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686587234075</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="javaweb">
+      <created>1686751241911</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686751241911</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,6 +423,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="CZK MADE" />
     <MESSAGE value="CZK" />
-    <option name="LAST_COMMIT_MESSAGE" value="CZK" />
+    <MESSAGE value="javaweb" />
+    <option name="LAST_COMMIT_MESSAGE" value="javaweb" />
   </component>
 </project>

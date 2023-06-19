@@ -11,16 +11,45 @@
   <component name="ChangeListManager">
     <list default="true" id="3847e6c7-9242-49bb-ad13-6faff34ce164" name="Default" comment="javaweb">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/WEB-INF/classes/servlet/UserLoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/WEB-INF/classes/servlet/UserLoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/WEB-INF/classes/filter/AdminFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/WEB-INF/classes/filter/AdminFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/WEB-INF/classes/filter/EncodeFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/WEB-INF/classes/filter/EncodeFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/WEB-INF/classes/servlet/AdminGoodsAddServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/WEB-INF/classes/servlet/AdminGoodsAddServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/WEB-INF/classes/servlet/AdminGoodsEditServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/WEB-INF/classes/servlet/AdminGoodsEditServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/admin/goods_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/admin/goods_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/admin/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/admin/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/goods_detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/goods_detail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/goods_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/goods_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/goodsrecommend_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/goodsrecommend_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/js/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/js/cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/order_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/order_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CookieShop_war_exploded/page.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dao/GoodsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/GoodsDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/filter/AdminFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/filter/AdminFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/filter/EncodeFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/filter/EncodeFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servlet/UserLoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/UserLoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/servlet/UserLoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/servlet/UserLoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/GoodsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servlet/AdminGoodsAddServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/AdminGoodsAddServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servlet/AdminGoodsEditServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/AdminGoodsEditServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servlet/AdminGoodsEditshowServelt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/AdminGoodsEditshowServelt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servlet/AdminGoodsListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/AdminGoodsListServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servlet/AdminGoodsRecommendServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/AdminGoodsRecommendServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servlet/AdminOrderStatusServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/AdminOrderStatusServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servlet/AdminTypeEditServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/AdminTypeEditServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servlet/AdminUserAddServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/AdminUserAddServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servlet/AdminUserEditServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/AdminUserEditServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/filter/AdminFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/filter/AdminFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/filter/EncodeFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/filter/EncodeFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/servlet/AdminGoodsAddServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/servlet/AdminGoodsAddServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/servlet/AdminGoodsEditServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/servlet/AdminGoodsEditServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/admin/goods_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/goods_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/cart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/order_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/order_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/goods_detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/goods_detail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/goods_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/goods_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/goodsrecommend_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/goodsrecommend_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/page.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,11 +73,11 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -319,7 +348,9 @@
       <workItem from="1686742989080" duration="3452000" />
       <workItem from="1686802368654" duration="1773000" />
       <workItem from="1687004634652" duration="1966000" />
-      <workItem from="1687070974330" duration="9556000" />
+      <workItem from="1687070974330" duration="17312000" />
+      <workItem from="1687157629623" duration="11133000" />
+      <workItem from="1687192517844" duration="3282000" />
     </task>
     <task id="LOCAL-00001" summary="CZK MADE">
       <created>1686586970645</created>
@@ -356,7 +387,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687071173698</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="javaweb">
+      <created>1687090765296</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1687090765296</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

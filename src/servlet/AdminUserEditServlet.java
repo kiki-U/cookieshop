@@ -21,6 +21,7 @@ public class AdminUserEditServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         User u = new User();
         try {
+            //使用BeanUtils.copyProperties()方法将请求参数的值复制到User对象的属性中。
             BeanUtils.copyProperties(u, request.getParameterMap());
         } catch (Exception e) {
             // TODO Auto-generated catch block

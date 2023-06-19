@@ -50,7 +50,7 @@
 					<th width="10%">下单时间</th>
 				</tr>
 
-					<c:forEach items="${orderList }" var="order">
+					<c:forEach items="${orderList}" var="order">
 
 						<tr>
 							<td><p>${order.id }</p></td>
@@ -84,7 +84,7 @@
 
 								</p>
 							</td>
-							<td><p>${order.datetime }</p></td>
+							<td><p>${order.datetime}</p></td>
 						</tr>
 
 					</c:forEach>

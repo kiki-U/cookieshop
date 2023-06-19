@@ -16,6 +16,7 @@ public class AdminGoodsRecommendServlet extends HttpServlet {
      * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
      */
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        //管理推荐的Servlet  主要功能是根据请求参数中的商品ID、操作方法和推荐目标类型进行商品推荐的添加或移除。
         int id = Integer.parseInt(request.getParameter("id"));
         String method = request.getParameter("method");
         int typeTarget=Integer.parseInt(request.getParameter("typeTarget"));

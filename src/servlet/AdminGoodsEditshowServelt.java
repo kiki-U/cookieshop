@@ -17,6 +17,7 @@ public class AdminGoodsEditshowServelt extends HttpServlet {
      * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
      */
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        //把要修改的商品展示到页面上
         int id = Integer.parseInt(request.getParameter("id"));
         Goods g = gService.getGoodsById(id);
         request.setAttribute("g", g);

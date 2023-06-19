@@ -20,6 +20,7 @@ public class AdminTypeEditServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         Type t = new Type();
         try {
+            //通过 BeanUtils.copyProperties() 方法将请求参数的值复制到 Type 对象 t 中。
             BeanUtils.copyProperties(t, request.getParameterMap());
         } catch (Exception e) {
             // TODO Auto-generated catch block

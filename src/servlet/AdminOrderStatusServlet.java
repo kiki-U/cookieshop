@@ -12,7 +12,7 @@ import java.io.IOException;
 @WebServlet(name = "admin_order_status",urlPatterns = "/admin/order_status")
 public class AdminOrderStatusServlet extends HttpServlet {
     private OrderService oService = new OrderService();
-
+    //修改物流状态
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         int id = Integer.parseInt(request.getParameter("id"));
         int status = Integer.parseInt(request.getParameter("status"));

@@ -28,6 +28,7 @@ public class AdminUserListServlet extends HttpServlet {
             }
 
         }
+        //如果pageNumber小于等于0，将其设为1，确保页码始终为正数。
         if(pageNumber<=0)
             pageNumber=1;
         Page p = uService.getUserPage(pageNumber);

@@ -43,6 +43,7 @@ public class AdminGoodsListServlet extends HttpServlet {
         else {
             if(pageNumber>=p.getTotalPage()+1)
             {
+                //分页功能
                 p = gService.getGoodsRecommendPage(type, pageNumber);
             }
         }

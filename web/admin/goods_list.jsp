@@ -19,7 +19,6 @@
 
 	<ul role="tablist" class="nav nav-tabs">
 		<li <c:if test="${type==0 }">class="active"</c:if> role="presentation"><a href="/admin/goods_list">全部商品</a></li>
-<%--		<li <c:if test="${type==1 }">class="active"</c:if> role="presentation"><a href="/admin/goods_list?type=1">条幅推荐</a></li>--%>
 		<li <c:if test="${type==2 }">class="active"</c:if> role="presentation"><a href="/admin/goods_list?type=2">热销推荐</a></li>
 		<li <c:if test="${type==3 }">class="active"</c:if> role="presentation"><a href="/admin/goods_list?type=3">新品推荐</a></li>
 	</ul>
@@ -52,14 +51,7 @@
 				<td><p>${g.type.name}</p></td>
 				<td>
 					<p>
-						<c:choose>
-							<c:when test="${g.isScroll }">
-								<a class="btn btn-info" href="/admin/goods_recommend?id=${g.id }&method=remove&typeTarget=1&pageNumber=${p.pageNumber}&type=${type}">移出条幅</a>
-							</c:when>
-							<c:otherwise>
-								<a class="btn btn-primary" href="/admin/goods_recommend?id=${g.id }&method=add&typeTarget=1&pageNumber=${p.pageNumber}&type=${type}">加入条幅</a>
-							</c:otherwise>
-						</c:choose>
+
 						<c:choose>
 							<c:when test="${g.isHot }">
 								<a class="btn btn-info" href="/admin/goods_recommend?id=${g.id }&method=remove&typeTarget=2&pageNumber=${p.pageNumber}&type=${type}">移出热销</a>

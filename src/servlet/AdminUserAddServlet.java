@@ -19,8 +19,10 @@ public class AdminUserAddServlet extends HttpServlet {
      * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
      */
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        //通过解析请求参数并将其复制到User对象中，然后调用用户服务的注册方法来完成用户的添加。
         User user = new User();
         try {
+            //使用BeanUtils.copyProperties()方法将请求参数的值复制到User对象的属性中。
             BeanUtils.copyProperties(user, request.getParameterMap());
         } catch (IllegalAccessException e) {
             // TODO Auto-generated catch block

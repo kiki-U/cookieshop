@@ -70,12 +70,14 @@ public class AdminGoodsEditServlet extends HttpServlet {
                             break;
                     }
                 }else {
+                    //获取文件的输入流
                     if(item.getInputStream().available()<=0)continue;
                     String fileName = item.getName();
                     fileName = fileName.substring(fileName.lastIndexOf("."));
                     fileName = "/"+new Date().getTime()+fileName;
                     String path = this.getServletContext().getRealPath("/picture")+fileName;
                     InputStream in = item.getInputStream();
+                    //创建实例,将上传的文件数据写入文件夹
                     FileOutputStream out = new FileOutputStream(path);
                     byte[] buffer = new byte[1024];
                     int len=0;

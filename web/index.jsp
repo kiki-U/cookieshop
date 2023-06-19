@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: 19767
-  Date: 2018/11/19
-  Time: 15:03
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
@@ -77,15 +70,7 @@
                 </c:forEach>
             </div>
 
-            <!-- Controls -->
-            <%--<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>--%>
+
         </div>
     </div>
 </div>

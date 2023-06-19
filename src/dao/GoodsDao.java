@@ -50,15 +50,19 @@ public class GoodsDao {
             return r.query(sql,new ScalarHandler<Long>(),typeID).intValue();
         }
     }
+
     public List<Goods> selectGoodsbyRecommend(int type,int pageNumber,int pageSize) throws SQLException {
+        //根据推荐类型、页码和每页大小来查询商品列表
         QueryRunner r = new QueryRunner(DataSourceUtils.getDataSource());
         if(type==0) {
-            //当不添加推荐类型限制的时候
+            //当不添加推荐类型限制的时候 用于查询商品信息并与商品类型进行关联 第一个?表示查询结果的起始位置（表示当前页数，是从前端传递过来的参数），第二个?表示每页显示的数量。
             String sql = " select g.id,g.name,g.cover,g.image1,g.image2,g.intro,g.price,g.stock,t.name typename from goods g,type t where g.type_id=t.id order by g.id limit ?,?";
+            //使用 BeanListHandler 处理查询结果，并返回结果列表。具体返回的是一个 List<Goods>，每个元素都是一个 Goods 对象，表示数据库中的商品数据。
+            //通过计算 (pageNumber-1)*pageSize 可以得到起始位置的值，它表示从结果集的第几行开始获取数据。例如，当 pageNumber 为 1 时，起始位置为 0；当 pageNumber 为 2 时，起始位置为 pageSize，以此类推。
             return r.query(sql, new BeanListHandler<>(Goods.class),(pageNumber-1)*pageSize,pageSize);
 
         }
-
+        //用于查询推荐商品信息并与商品类型进行关联
         String sql = " select g.id,g.name,g.cover,g.image1,g.image2,g.intro,g.price,g.stock,t.name typename from goods g,recommend r,type t where g.id=r.goods_id and g.type_id=t.id and r.type=? order by g.id limit ?,?";
         return r.query(sql, new BeanListHandler<>(Goods.class),type,(pageNumber-1)*pageSize,pageSize);
     }

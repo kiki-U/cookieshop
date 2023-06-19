@@ -66,6 +66,7 @@ public class GoodsService {
         p.setPageNumber(pageNumber);
         int totalCount = 0;
         try {
+            //返回推荐类型
             totalCount = gDao.getRecommendCountOfGoodsByTypeID(type);
         } catch (SQLException e) {
             // TODO Auto-generated catch block
